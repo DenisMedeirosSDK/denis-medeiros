@@ -1,18 +1,20 @@
-import { About } from './components/About';
-import { Contact } from './components/Contact';
-import { Footer } from './components/Footer';
-import { Hero } from './components/Hero';
-import { MyWorkers } from './components/MyWorkers';
-import { Skills } from './components/Skills';
+import { About } from "./components/About";
+import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
+import { Header } from "./components/Header";
+import { Hero } from "./components/Hero";
+import { Portfolio } from "./components/Portfolio";
 
 function App() {
   return (
-    <div className="bg-white dark:bg-zinc-900 text-zinc-900 dark:text-zinc-100">
-      <Hero />
-      <About />
-      <Skills />
-      <MyWorkers />
-      <Contact />
+    <div className="bg-white dark:bg-gray-600 text-zinc-900 dark:text-gray-100">
+      <Header />
+      <div className="px-6 max-w-screen-lg mx-auto">
+        <Hero />
+        <About />
+        <Portfolio />
+        <Contact />
+      </div>
       <Footer />
     </div>
   );
