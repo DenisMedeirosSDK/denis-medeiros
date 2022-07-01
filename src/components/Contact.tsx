@@ -9,7 +9,7 @@ export function Contact() {
           <a
             href="https://api.whatsapp.com/send?phone=5515996102148&text=Oi%2C%20tudo%20bem%3F"
             target="_blank"
-            className="flex justify-center items-center dark:text-gray-100 hover:dark:text-gray-200 dark:bg-gray-500 dark:hover:bg-gray-400 
+            className="flex justify-center items-center dark:text-gray-100 hover:dark:text-gray-200 shadow-md dark:bg-gray-500 dark:hover:bg-gray-400 
             transition-all p-3 rounded-full transform hover:scale-110 sm:scale-105"
           >
             <WhatsappLogo size={32} />
@@ -17,7 +17,7 @@ export function Contact() {
           <a
             href="https://github.com/DenisMedeirosSDK"
             target="_blank"
-            className="flex justify-center items-center dark:text-gray-100 hover:dark:text-gray-200 dark:bg-gray-500 dark:hover:bg-gray-400 
+            className="flex justify-center items-center dark:text-gray-100 hover:dark:text-gray-200 shadow-md dark:bg-gray-500 dark:hover:bg-gray-400 
             transition-all p-3 rounded-full transform hover:scale-110 sm:scale-105"
           >
             <GithubLogo size={32} />
@@ -25,7 +25,7 @@ export function Contact() {
           <a
             href="https://www.linkedin.com/in/denis-medeiros/"
             target="_blank"
-            className="flex justify-center items-center dark:text-gray-100 hover:dark:text-gray-200 dark:bg-gray-500 dark:hover:bg-gray-400 
+            className="flex justify-center items-center dark:text-gray-100 hover:dark:text-gray-200 shadow-md dark:bg-gray-500 dark:hover:bg-gray-400 
             transition-all p-3 rounded-full transform hover:scale-110 sm:scale-105"
           >
             <LinkedinLogo size={32} />
@@ -69,7 +69,7 @@ export function Contact() {
           />
           <button
             type="submit"
-            className="h-14 bg-zinc-100 dark:bg-orange-500 hover:bg-zinc-200 dark:hover:bg-orange-400 rounded-lg transition-colors shadow-md"
+            className="h-14 text-gray-100 font-bold bg-orange-500 hover:bg-orange-400 rounded-lg transition-colors shadow-md"
           >
             Enviar
           </button>
