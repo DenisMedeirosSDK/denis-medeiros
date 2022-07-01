@@ -1,62 +1,75 @@
+import { GithubLogo, LinkedinLogo, WhatsappLogo } from "phosphor-react";
+
 export function Contact() {
   return (
-    <div className="px-5 max-w-screen-lg mx-auto">
-      <h2 className="font-secondary font-bold text-5xl my-8">Contato</h2>
-      <section>
+    <div id="contact" className="mt-20">
+      <h2 className="flex justify-center font-bold text-3xl mb-6">Contato</h2>
+      <section className="flex flex-col gap-6">
+        <div className="flex flex-row gap-4 justify-center">
+          <a
+            href="https://api.whatsapp.com/send?phone=5515996102148&text=Oi%2C%20tudo%20bem%3F"
+            target="_blank"
+            className="flex justify-center items-center dark:text-gray-100 hover:dark:text-gray-200 dark:bg-gray-500 dark:hover:bg-gray-400 
+            transition-all p-3 rounded-full transform hover:scale-110 sm:scale-105"
+          >
+            <WhatsappLogo size={32} />
+          </a>
+          <a
+            href="https://github.com/DenisMedeirosSDK"
+            target="_blank"
+            className="flex justify-center items-center dark:text-gray-100 hover:dark:text-gray-200 dark:bg-gray-500 dark:hover:bg-gray-400 
+            transition-all p-3 rounded-full transform hover:scale-110 sm:scale-105"
+          >
+            <GithubLogo size={32} />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/denis-medeiros/"
+            target="_blank"
+            className="flex justify-center items-center dark:text-gray-100 hover:dark:text-gray-200 dark:bg-gray-500 dark:hover:bg-gray-400 
+            transition-all p-3 rounded-full transform hover:scale-110 sm:scale-105"
+          >
+            <LinkedinLogo size={32} />
+          </a>
+        </div>
+
         <form
           action="https://formsubmit.co/contato.denismedeiros@hotmail.com"
           method="POST"
-          className="flex flex-col gap-5"
+          className="flex flex-col gap-4"
         >
-          <div className="flex flex-col">
-            <label htmlFor="name" className="font-secondary font-bold text-lg">
-              Nome
-            </label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Nome"
-              className="border border-zinc-500 dark:text-zinc-800 rounded-lg px-4 py-2"
-            />
-          </div>
-          <div className="flex flex-col">
-            <label htmlFor="name" className="font-secondary font-bold text-lg">
-              E-mail
-            </label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="E-mail"
-              className="border border-zinc-500 dark:text-zinc-800 rounded-lg px-4 py-2"
-            />
-          </div>
-          <div className="flex flex-col">
-            <label htmlFor="name" className="font-secondary font-bold text-lg">
-              Assunto
-            </label>
-            <input
-              type="subject"
-              name="subject"
-              placeholder="Assunto"
-              className="border border-zinc-500 dark:text-zinc-800 rounded-lg px-4 py-2"
-            />
-          </div>
-          <div className="flex flex-col">
-            <label htmlFor="name" className="font-secondary font-bold text-lg">
-              Menssagem
-            </label>
-            <textarea
-              id="message"
-              name="message"
-              placeholder="Menssagem"
-              className="border border-zinc-500 dark:text-zinc-800 rounded-lg px-4 py-2"
-            />
-          </div>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Nome"
+            required
+            className="dark:text-gray-100 h-14 rounded-lg p-4 dark:bg-gray-500 placeholder-gray-300 shadow-md"
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="E-mail"
+            required
+            className="dark:text-gray-100 h-14 rounded-lg p-4 dark:bg-gray-500 placeholder-gray-300 shadow-md"
+          />
+          <input
+            type="subject"
+            name="subject"
+            placeholder="Assunto"
+            required
+            className="dark:text-gray-100 h-14 rounded-lg p-4 dark:bg-gray-500 placeholder-gray-300 shadow-md"
+          />
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Menssagem"
+            required
+            className="dark:text-gray-100 h-24 resize-none rounded-lg p-4 dark:bg-gray-500 placeholder-gray-300 shadow-md"
+          />
           <button
             type="submit"
-            className="h-14 bg-zinc-100 dark:bg-zinc-800 hover:bg-zinc-200 dark:hover:bg-zinc-700 px-5 rounded-lg mr-auto"
+            className="h-14 bg-zinc-100 dark:bg-orange-500 hover:bg-zinc-200 dark:hover:bg-orange-400 rounded-lg transition-colors shadow-md"
           >
             Enviar
           </button>

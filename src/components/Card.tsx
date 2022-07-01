@@ -58,7 +58,7 @@ export function Card({ title, description }: CardProps) {
       </div>
 
       <div className="flex flex-col items-center">
-        <p className="text-brand-300 font-bold text-3xl">{title}</p>
+        <p className="text-orange-300 font-bold text-3xl">{title}</p>
         <p className="font-bold">{description}</p>
       </div>
     </div>

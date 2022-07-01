@@ -1,24 +1,24 @@
 export function About() {
   return (
-    <div className="flex flex-col md:flex-row justify-center items-center px-5 my-32">
-      <div>
-        <figure>
-          <img
-            src="/src/assets/images/foto.png"
-            alt=""
-            width={620}
-            height={596.07}
-          />
-        </figure>
-      </div>
-      <div>
-        <h2 className="font-secondary font-bold text-5xl mb-8">Sobre Mim</h2>
-        <p className="font-secondary max-w-xl">
-          Eu sou Denis Medeiros, 22 anos, formado em Ciência da Computação pela
-          UNIP, e atualmente estudando Node.js, React.js e React Native. Estou
-          sempre em busca de novos conhecimentos e em busca de novos desafios.
-        </p>
-      </div>
+    <div id="about" className="flex flex-col justify-center items-center mt-20">
+      <h2 className="flex justify-center font-bold text-3xl mb-6">Sobre Mim</h2>
+      <p className="leading-relaxed text-justify tracking-wide">
+        Sou <strong className="text-orange-500">Denis Medeiros</strong>, sou
+        desenvolvedor <span className="font-medium">FullStack</span>, com foco
+        nas tecnologias{" "}
+        <span className="font-medium">Nodejs, React e React Native</span>.
+        Formado em{" "}
+        <span className="text-orange-500">Ciência da Computação</span>.
+        Atualmente estou me aprofundando mais em Backend, aprendendo conceitos
+        sobre microserviços e mensageria. Gosto muito de construir aplicações
+        Jamstack.
+      </p>
+      <p className="leading-relaxed text-justify tracking-wide">
+        Tenho diversos projetos, tanto pessoal quanto projetos desenvolvido em
+        eventos de programação. Para a construção do meu TCC, eu desenvolvi uma
+        aplicação para agendamentos no ramo da beleza, utilizando a stack
+        apresendata acima.
+      </p>
     </div>
   );
 }
