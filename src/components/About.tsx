@@ -13,7 +13,7 @@ export function About() {
         Além da minha experiência como desenvolvedor, também possuo um forte interesse e habilidade em modelagem 3D para arquitetura.
         Tenho um grande apreço pela arquitetura e pelo design de espaços, o que me motiva a aplicar minhas habilidades de programação
         para ajudar arquitetos e designers a visualizar seus projetos de maneira mais realista e interativa.
-        Adoro trabalhar com ferramentas de modelagem 3D, como Blender e Unreal Engine, para criar modelos realistas de edifícios e ambientes,
+        Adoro trabalhar com ferramentas de modelagem 3D, como <span className="font-medium">Blender e Unreal Engine</span>, para criar modelos realistas de edifícios e ambientes,
         e estou sempre buscando novas maneiras de aprimorar minhas habilidades nessa área.
       </p>
     </div>
