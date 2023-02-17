@@ -7,17 +7,8 @@ export function Hero() {
       <p className="font-bold text-orange-400">Desenvolvedor FullStack</p>
 
       <p className="text-sm">
-        Sou desenvolvedor FullStack, com foco nas tecnologias Nodejs, React e
-        React Native.
+        Nodejs, React, React Native, typescript.
       </p>
-
-      {/* <figure className="mt-8">
-        <img
-          src="https://github.com/denismedeirossdk.png"
-          alt=""
-          className="rounded-full w-52"
-        />
-      </figure> */}
     </div>
   );
 }

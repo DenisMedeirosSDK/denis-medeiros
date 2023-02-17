@@ -7,11 +7,14 @@ import { Portfolio } from "./components/Portfolio";
 
 function App() {
   return (
-    <div className="bg-white dark:bg-gray-600 text-zinc-900 dark:text-gray-100">
+    <div className="bg-white dark:bg-zinc-900 text-zinc-900 dark:text-zinc-100">
       <Header />
       <div className="px-6 max-w-screen-lg mx-auto">
         <Hero />
-        <About />
+        <div className="mt-20">
+
+          <About />
+        </div>
         <Portfolio />
         <Contact />
       </div>
