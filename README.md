@@ -1,38 +1,34 @@
-# Denis Medeiros
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Sobre Mim
----------
+## Getting Started
 
-Sou **Denis Medeiros**, um desenvolvedor Fullstack JavaScript com formação em Ciência da Computação (2021). Possuo ampla experiência em desenvolvimento de aplicativos web, com foco em tecnologias como React JS, NodeJS, TypeScript. Sou capaz de projetar e implementar sistemas escaláveis, robustos e seguros, utilizando as melhores práticas de programação e metodologias ágeis. Além disso, tenho habilidade em trabalhar em equipe e resolver problemas de forma eficiente e criativa. Estou sempre buscando novos desafios para aprimorar minhas habilidades e contribuir para o sucesso da empresa.
-
-Além da minha experiência como desenvolvedor, também possuo um forte interesse e habilidade em modelagem 3D para arquitetura. Tenho um grande apreço pela arquitetura e pelo design de espaços, o que me motiva a aplicar minhas habilidades de programação para ajudar arquitetos e designers a visualizar seus projetos de maneira mais realista e interativa. Adoro trabalhar com ferramentas de modelagem 3D, como Blender e Unreal Engine, para criar modelos realistas de edifícios e ambientes, e estou sempre buscando novas maneiras de aprimorar minhas habilidades nessa área.
-
-## 🛠 Tecnologias
-
-- [vitejs](https://vitejs.dev/)
-- [tailwindcss](https://tailwindcss.com/)
-- [phosphor Icons](https://phosphoricons.com/)
-
-## ⚙ Executar
+First, run the development server:
 
 ```bash
-#Clone o projeto para seu computador
-git clone https://github.com/DenisMedeirosSDK/denis-medeiros.git
-```
-```bash
-##Entre na pasta do projeto
-cd denis-medeiros
-```
-```bash
-##Instale as dependências
-npm install
-```
-
-```bash
-##Execute o projeto em desenvolvimento
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
 ```
 
-```
-http://localhost:5173
-```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
