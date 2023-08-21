@@ -1,0 +1,40 @@
+{
+  "page": {
+    "home": {
+      "hero": {
+        "title": {
+          "chunk1": "Sou Denis, um ",
+          "chunk2": "desenvolvedor FullStack ",
+          "chunk3": "com ",
+          "chunk4": "Node.js ",
+          "chunk5": "e ",
+          "chunk6": "React"
+        },
+        "subtitle": "Criou aplicações web performáticas e escaláveis.",
+        "work": "Trabalhando atualmente no meu Portfólios"
+      },
+      "about-me": {
+        "description": "Olá, meu nome é Denis! Sou um desenvolvedor autodidata localizado em São Paulo, Brasil. Tenho a capacidade de criar aplicações web responsivos e escaláveis a partir do zero e transformá-los em experiências web modernas e amigáveis aos usuários. Há mais de anos, venho canalizando minha criatividade e conhecimento no desenvolvimento web, o que se tornou minha verdadeira paixão. Estou constantemente em busca de aprender sobre as mais recentes tecnologias e frameworks disponíveis."
+      },
+      "contact": {
+        "description": "Estou interessado em oportunidades de trabalho fulltime ou freelancer. No entanto, se você tiver outras solicitações ou perguntas, não hesite em entrar em contato comigo."
+      },
+      "titles": {
+        "projects": "projetos",
+        "skills": "habilidades",
+        "about-me": "sobre-mim",
+        "contact": "contato"
+      },
+      "links": {
+        "view-all": "Ver todos",
+        "read-more": "Ler mais"
+      }
+    }
+  },
+  "components": {
+    "card-projects": {
+      "live": "acessar",
+      "code": "código"
+    }
+  }
+}
