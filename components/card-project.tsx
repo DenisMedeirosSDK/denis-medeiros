@@ -2,7 +2,7 @@ import { getDictionary } from "@/utils/dictionaries";
 import { truncateString } from "@/utils/truncate-string";
 import Image from "next/image";
 import Link from "next/link";
-import { Locale } from "../../i18n.config";
+import { Locale } from "../i18n.config";
 
 interface Props {
   id: string

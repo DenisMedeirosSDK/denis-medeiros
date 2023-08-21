@@ -82,8 +82,6 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
   const responseAbout: AboutProps = await client.request(queryAbout)
   const { page } = await getDictionary(lang)
 
-  console.log(responseAbout)
-
   return (
     <main className="flex flex-col min-h-screen h-full max-w-screen-lg w-full mx-auto justify-between">
       <section className="flex flex-col md:flex-row md:justify-center md:items-center min-h-screen h-full max-w-screen-lg w-full mx-auto justify-between p-4">
