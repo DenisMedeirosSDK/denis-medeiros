@@ -1,6 +1,8 @@
+import { getDictionary } from "@/utils/dictionaries";
 import { truncateString } from "@/utils/truncate-string";
 import Image from "next/image";
 import Link from "next/link";
+import { Locale } from "../i18n.config";
 
 interface Props {
   id: string
@@ -15,9 +17,13 @@ interface Props {
     id: string
     url: string
   }
+  params: { lang: Locale }
 }
 
-export function CardProject(props: Props) {
+export async function CardProject(props: Props) {
+
+  const { components } = await getDictionary(props.params.lang)
+
   return (
     <div className="border border-gray-400 w-full">
       <div className="flex justify-center items-center">
@@ -35,11 +41,11 @@ export function CardProject(props: Props) {
         </div>
 
         <div className="mt-3 flex justify-between">
-          <Link href={props.live} target="_blank" className="font-medium border border-orange-500 py-2 px-4 hover:bg-orange-500 hover:transition-colors">
-            <span>Live {'~~>'}</span>
+          <Link href={props.live} target="_blank" className="font-medium border border-orange-500 py-2 px-4 hover:bg-orange-500 hover:transition-colors hover:text-white">
+            <span>{components["card-projects"].live} {'~~>'}</span>
           </Link>
           <Link href={props.code} target="_blank" className="font-medium border border-gray-500 dark:border-gray-400 py-2 px-4 dark:hover:bg-gray-400 hover:bg-gray-500 hover:transition-colors hover:text-white">
-            <span>Code {'>='}</span>
+            <span>{components["card-projects"].code} {'>='}</span>
           </Link>
         </div>
       </div>
