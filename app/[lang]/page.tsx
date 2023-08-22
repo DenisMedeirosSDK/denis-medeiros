@@ -94,7 +94,7 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
           <p className="mt-10 text-gray-500 dark:text-gray-400">{page.home.hero.subtitle}</p>
         </div>
         <div className="flex flex-col justify-center items-center">
-          <Image src="/hacker-portfolio.png" className="" alt="" width={512} height={768} quality={100} />
+          <Image src="/images/hacker-portfolio.png" className="object-contain" alt="hacker" width={512} height={768} quality={100} priority />
           <div className="p-2 w-full border border-zinc-500 text-center">
             {page.home.hero.work.split(' ').map((word, index, array) => (
               index === array.length - 1 ? (
