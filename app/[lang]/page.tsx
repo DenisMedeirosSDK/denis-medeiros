@@ -119,7 +119,7 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
 
         <div className="flex flex-col gap-4 mt-12 md:grid md:grid-cols-2 lg:grid-cols-3 w-full">
           {
-            response.projects.map(project => {
+            response.projects.slice(0, 6).map(project => {
               return (
                 <CardProject key={project.id} params={{ lang: lang }} {...project} />
               )
