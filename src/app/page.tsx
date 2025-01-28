@@ -86,7 +86,7 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <Button asChild>
-                  <Link href="https://google.com" target="_blank">Calc-dm</Link>
+                  <Link href="https://calc-dm.vercel.app" target="_blank">Calc-dm</Link>
                 </Button>
               </CardContent>
             </Card>
