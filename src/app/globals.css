@@ -34,6 +34,7 @@ body {
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
   }
+
   .dark {
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
@@ -66,7 +67,42 @@ body {
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.scanline {
+  width: 100%;
+  height: 2px;
+  background: rgba(0, 255, 133, 0.1);
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  pointer-events: none;
+  animation: scanline 8s linear infinite;
+}
+
+@keyframes scanline {
+  0% {
+    top: 0;
+  }
+
+  100% {
+    top: 100%;
+  }
+}
+
+.glow-green {
+  text-shadow: 0 0 10px rgba(0, 255, 133, 0.5);
+}
+
+.border-glow-green {
+  box-shadow: 0 0 15px rgba(0, 255, 133, 0.2);
+  border-color: rgba(0, 255, 133, 0.5);
+}
+
+.terminal-header {
+  background: linear-gradient(90deg, #1A1A1E 0%, #0A0A0B 100%);
 }
